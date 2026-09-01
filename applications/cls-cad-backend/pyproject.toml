@@ -26,7 +26,7 @@ optional = true
 
 [tool.poetry.group.hypermapper.dependencies]
 hypermapper = "^2"
-plotly = "^6"
+plotly = ">=6,<8"
 pandas = "^3"
 
 [tool.poetry.group.dev.dependencies]
