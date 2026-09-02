@@ -1,17 +1,17 @@
-<kbd><img src="https://github.com/tudo-seal/CLS-CAD/raw/main/applications/cls-cad-fusion-plugin/resources/vectors/clscad.svg" width="256" height="256" style="border-radius:50%"></kbd>
+<kbd><img src="https://github.com/Jekannadar/CLS-CAD/raw/main/applications/cls-cad-fusion-plugin/resources/vectors/clscad.svg" width="256" height="256" style="border-radius:50%"></kbd>
 
 ---
 
 ![Generic badge](https://img.shields.io/badge/python-fusion360%20|%203.10%20|%203.11-informational.svg?style=for-the-badge)
 ![Supported systems](https://img.shields.io/badge/os-windows-informational.svg?style=for-the-badge)
-[![GitHub license](https://img.shields.io/github/license/tudo-seal/CLS-CAD?style=for-the-badge)](https://github.com/tudo-seal/CLS-CAD/blob/main/LICENSE)
-[![CodeCov](https://img.shields.io/codecov/c/github/tudo-seal/CLS-CAD?style=for-the-badge&cacheSeconds=3600)](https://codecov.io/gh/tudo-seal/CLS-CAD)
+[![GitHub license](https://img.shields.io/github/license/Jekannadar/CLS-CAD?style=for-the-badge)](https://github.com/Jekannadar/CLS-CAD/blob/main/LICENSE)
+[![CodeCov](https://img.shields.io/codecov/c/github/Jekannadar/CLS-CAD?style=for-the-badge&cacheSeconds=3600)](https://codecov.io/gh/Jekannadar/CLS-CAD)
 
-[![Latest Release](https://img.shields.io/github/v/release/tudo-seal/CLS-CAD.svg?style=for-the-badge)](https://github.com/tudo-seal/CLS-CAD/releases/latest/download/cls-cad-fusion-plugin.msi)
+[![Latest Release](https://img.shields.io/github/v/release/Jekannadar/CLS-CAD.svg?style=for-the-badge)](https://github.com/Jekannadar/CLS-CAD/releases/latest/download/cls-cad-fusion-plugin.msi)
 [![Youtube Overview](https://img.shields.io/badge/YouTube-Overview-informational?style=for-the-badge)](https://youtu.be/gNqHxLpqiFw)
 [![Dataset](https://img.shields.io/badge/dataset-zenodo.10051244-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.10051244)
 
-<!---[![Issues](https://img.shields.io/github/issues/tudo-seal/CLS-CAD)](https://github.com/tudo-seal/CLS-CAD/issues)-->
+<!---[![Issues](https://img.shields.io/github/issues/Jekannadar/CLS-CAD)](https://github.com/Jekannadar/CLS-CAD/issues)-->
 
 ---
 
@@ -33,13 +33,13 @@ There is an overview video available at: https://youtu.be/gNqHxLpqiFw <br>
 
 # Installation
 
-To install the add-in in Fusion 360, download the [latest installer](https://github.com/tudo-seal/CLS-CAD/releases/download/latest/cls-cad-fusion-plugin.msi) and execute it.
+To install the add-in in Fusion 360, download the [latest installer](https://github.com/Jekannadar/CLS-CAD/releases/download/latest/cls-cad-fusion-plugin.msi) and execute it.
 To use the plugin, you need a running backend.
 This requires [docker](https://docs.docker.com/desktop/install/windows-install/) to be installed.
 <br>
 After installing and starting docker, in a terminal, run:
 
-- `docker run -d -p 8000:80 --name cls-cad-backend --pull=always ghcr.io/tudo-seal/cls-cad-backend:latest`
+- `docker run -d -p 8000:80 --name cls-cad-backend --pull=always ghcr.io/Jekannadar/cls-cad-backend:latest`
 
 For subsequent usage, simply start the `cls-cad-backend` container from the containers tab in the docker desktop application.
 
@@ -47,7 +47,7 @@ For subsequent usage, simply start the `cls-cad-backend` container from the cont
 
 ## Install Add-In
 
-Install the add-in using the [latest installer](https://github.com/tudo-seal/CLS-CAD/releases/download/latest/cls-cad-fusion-plugin.msi).
+Install the add-in using the [latest installer](https://github.com/Jekannadar/CLS-CAD/releases/download/latest/cls-cad-fusion-plugin.msi).
 <br>
 Please make sure to have started Fusion 360 at least once before installation. The add-in is available as of the next time launching Fusion 360.
 

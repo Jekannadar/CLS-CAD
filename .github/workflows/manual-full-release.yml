@@ -6,7 +6,7 @@ on:
 jobs:
   run-tests:
     name: Tests
-    uses: tudo-seal/CLS-CAD/.github/workflows/run-tests.yml@main
+    uses: Jekannadar/CLS-CAD/.github/workflows/run-tests.yml@main
     secrets: inherit
     permissions:
       checks: write
@@ -14,13 +14,13 @@ jobs:
 
   build-msi:
     name: Installer
-    uses: tudo-seal/CLS-CAD/.github/workflows/build-publish-installer.yml@main
+    uses: Jekannadar/CLS-CAD/.github/workflows/build-publish-installer.yml@main
     secrets: inherit
 
   build-container:
     name: Container
     needs: [run-tests]
-    uses: tudo-seal/CLS-CAD/.github/workflows/build-publish-container.yml@main
+    uses: Jekannadar/CLS-CAD/.github/workflows/build-publish-container.yml@main
     permissions:
       contents: read
       packages: write

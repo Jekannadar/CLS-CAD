@@ -13,7 +13,7 @@ authors:
     email: constantin.chaumet@tu-dortmund.de
     affiliation: TU Dortmund University
     orcid: 'https://orcid.org/0000-0002-8359-8030'
-repository-code: 'https://github.com/tudo-seal/CLS-CAD'
+repository-code: 'https://github.com/Jekannadar/CLS-CAD'
 abstract: >-
   A plugin for Fusion 360 that allows leveraging combinatory
   logic synthesis to automatically generate assemblies from

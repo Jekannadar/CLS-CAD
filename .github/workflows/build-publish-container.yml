@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  TEST_TAG: ghcr.io/tudo-seal/cls-cad-backend:test
-  LATEST_TAG: ghcr.io/tudo-seal/cls-cad-backend:latest
+  TEST_TAG: ghcr.io/Jekannadar/cls-cad-backend:test
+  LATEST_TAG: ghcr.io/Jekannadar/cls-cad-backend:latest
 
 jobs:
   build-and-push-image:
