@@ -227,7 +227,7 @@ develop = false
 
 [package.source]
 type = "git"
-url = "https://github.com/Jekannadar/clsp-python.git"
+url = "https://github.com/tudo-seal/clsp-python.git"
 reference = "main"
 resolved_reference = "5c9bf47cf8be1a40c12f04b21a3e89aee7a4b075"
 
@@ -3096,4 +3096,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11,<3.13"
-content-hash = "652b8d158368c24e85f533b06c186be94068066e31ce3e83d3b55cefab692534"
+content-hash = "5cd5ae06431153314e7c7f9e43eb2bd56e1df79458dcedd27b809dd82612295a"
