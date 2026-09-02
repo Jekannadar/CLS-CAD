@@ -16,7 +16,7 @@ jobs:
       - name: Build AIP
         uses: caphyon/advinst-github-action@main
         with:
-          advinst-version: "21.1"
+          advinst-version: "23.0"
           advinst-enable-automation: "true"
           aip-path: ${{ github.workspace }}\applications\cls-cad-fusion-plugin\cls-cad-fusion-plugin.aip
           aip-build-name: DefaultBuild
