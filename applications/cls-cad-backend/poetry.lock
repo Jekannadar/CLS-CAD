@@ -227,7 +227,7 @@ develop = false
 
 [package.source]
 type = "git"
-url = "https://github.com/tudo-seal/clsp-python.git"
+url = "https://github.com/Jekannadar/clsp-python.git"
 reference = "main"
 resolved_reference = "5c9bf47cf8be1a40c12f04b21a3e89aee7a4b075"
 
